@@ -16,9 +16,9 @@ No installation required. Just open the link and click **Run** to see the applic
 If you have a C++ compiler installed:
 
 ```bash
-git clone https://github.com/grignetta/strativ_application.git
+git clone https://github.com/grignetta/strativ_application.git strativ_application
 cd strativ_application
-g++ -std=c++17 main.cpp -o application
+g++ -std=c++17 strativ_application.cpp -o application
 ./application
 ```
 
